@@ -1,0 +1,58 @@
+
+:root {
+    --accent-1: #1D4859;
+    --accent-2: #8E7CC3;
+}
+
+body {
+    background-color: #FFFFFF;
+    padding: 20px; /* Added padding to move content away from edges */
+    font-size: 16px; /* Increased font size */
+}
+
+h1, h2, h3 {
+    color: var(--accent-1);
+    text-align: center;
+}
+
+p.picture {
+    text-align: center;
+}
+
+p, li, table {
+    font-size: 1.2em;
+}
+
+th, td {
+    border: 3px solid var(--accent-2); /* Set border color and style */
+    border-style: groove; /* Set border style */
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #593814;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline from text links */
+}
+
+a:hover {
+    color: #0000CC;
+}
+
+/* New styles for the image container */
+.image-container {
+    background-color: var(--accent-1); /* Set background color */
+    width: 646px; /* Set width */
+    padding: 20px; /* Set padding */
+    border: 2px solid var(--accent-2); /* Set border */
+    border-style: dashed; /* Pick a different border style */
+    border-width: 4px; /* Set border width */
+    border-color: var(--accent-1); /* Set border color */
+    margin: 15px; /* Set margin */
+}
